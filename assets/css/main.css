@@ -1,0 +1,4 @@
+.container-fluid.bg-image {
+    background-image: url(../img/banner_top.jpg);
+    width: 100%;
+}
