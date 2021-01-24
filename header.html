@@ -51,7 +51,8 @@
                </ul>
              </li>
              <li class="nav-item">
-              <button type="button" class="btn btn-primary">Fale Comigo</button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Fale Comigo</button>
+                
              </li>
              <li class="nav-items social pt-2">
                <a href="https://www.linkedin.com/in/thais-mariano-3657881b6/" target="_blank"  class="text-decoration-none">
@@ -88,6 +89,55 @@
           </div>
         </div>
       </header>
+      <!-- Açoêns dentro da aplicaçao -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content p-5">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              <span class="badge rounded-pill text-white bg-primary">Portfólio 2021</span>
+              <p class="h3 mt-2 text-left">
+                Fale Comigo 
+              </p>
+              <p class="h5 mt-3">
+                via whatsapp ou em outras plataformas.
+              </p>
+            </h5>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="form-group mt-3">
+                <label class="mb-1" for="exampleFormControlInput1">Nome / Empresa.</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite aqui">
+              </div>
+              <div class="form-group mt-3">
+                <label class="mb-1" for="exampleFormControlInput1">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite aqui">
+              </div>
+              <div class="form-group mt-3">
+                <form>
+                  <div class="form-group">
+                    <label class="mb-1" for="exampleFormControlFile1">Selecione em seus arquivos </label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                  </div>
+                </form>
+              </div>
+              
+              <div class="form-group mt-3">
+                <label class="mb-1" for="exampleFormControlTextarea1">Olá, poderia me informar, qual assunto se trata!</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite aqui..."></textarea>
+              </div>
+              <button type="button" class="btn btn-success mb-2 mt-3">Success</button>
+              
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 
   <!-- scripts -->
