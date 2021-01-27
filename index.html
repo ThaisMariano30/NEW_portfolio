@@ -76,22 +76,19 @@
       </nav>  
      
       <!-- menu mobile -->
-        <div class="containei fixed-bottom bg-light d-block d-sm-none">
+        <div class="containei fixed-bottom bg-primary d-block d-sm-none">
           <div class="row">
-            <div class="col-xs-12">
-              <nav class="navbar navbar-light">
-                <div class="container-fluid"> 
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icons border-0 link">
-                    <a class="nav-link active text-dark" target="_blank" aria-current="page" href="#"><i class="fas fa-home"></i></a>
-                  </span>
-                </button>
-                    <a class="nav-link active text-dark" target="_blank" aria-current="page" href="#"><i class="far fa-grin-beam"></i></i></a>
-                    <a class="nav-link text-dark" target="_blank" aria-current="page" href="#"><i class="fas fa-swatchbook"></i></a>
-                    <a class="nav-link text-dark" target="_blank" aria-current="page" href="https://wa.me/+5511910451115?text="><i class="fab fa-whatsapp"></i></i></a>
-                </div>
-              </nav>
-            </div>
+            <nav class="navbar">
+              <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icons border-0 link">
+                  <a class="nav-link active text-white" target="_blank" aria-current="page" href="#"><i class="fas fa-home text-white"></i></a>
+                </span>
+              </button>
+              <a class="nav-link active text-white" target="_blank" aria-current="page" href="#"><i class="far fa-grin-beam text-white"></i></a>
+              <a class="nav-link text-white" target="_blank" aria-current="page" href="portfolio.html"><i class="fas fa-swatchbook text-white"></i></a>
+              <a class="nav-link text-white" target="_blank" aria-current="page" href="https://wa.me/+5511910451115?text="><i class="fab fa-whatsapp text-white"></i></a>
+            </nav>    
+            
           </div>
         </div>
       </header>
@@ -99,7 +96,7 @@
      <!-- main -->
      <main>
          <!-- banner-top - mobile -->
-       <div class="container-fluid bg-image d-block d-sm-none" style="width: 100%; height: 100%; background-image: url(assets/img/banner_full_mobi.png);">
+       <div class="container-fluid bg-image d-block d-sm-none" id="banner_top_mobile" style="width: 100%; height: 100%; background-image: url(assets/img/banner_full_mobi.png);">
         <!-- <img src="assets/img/banner_top.jpg" width="100%" alt="banner_top"> -->
         <div class="container">
           <div class="row">
@@ -133,7 +130,7 @@
       </div>
 
       <!-- banner-top - desktop -->
-      <div class="container-fluid bg-image d-none d-sm-block" style="width: 100%; height: 100%;">
+      <div class="container-fluid bg-image d-none d-sm-block" id="banner_top_desktop" style="width: 100%; height: 100%;">
         <!-- <img src="assets/img/banner_top.jpg" width="100%" alt="banner_top"> -->
         <div class="container">
           <div class="row">
@@ -167,7 +164,7 @@
       </div>
       
        <!-- text / cards -->
-        <div class="container-fluid CV">
+        <div class="container-fluid CV" id="jobs-cards">
           <!-- row_top -->
           <div class="container p-5 pt-5 pb-5">
             <!-- text-veja_mais -->
@@ -241,7 +238,7 @@
         </div>
 
        <!-- banner-ilustrations -->
-        <div class="container-fluid banner-top">
+        <div class="container-fluid banner-top" id="banner_ilustracao">
           <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light">
             <div class="col-xs-12 p-5 col-sm-12 col-md-8 col-lg-8 col-xl-8">
               <div class="container">
@@ -259,12 +256,12 @@
         </div> 
         
         <!-- Skills -->
-      <div class="container-fluid p-0">
-        <div class="row align-items-center">
+      <div class="container-fluid" id="Skills">
+        <div class="row align-items-center bg-secundary">
           <!-- titulo - sub - Redes Sociais  -->
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xll-6">
               <div class="row p-5">
-                <div class="p-5 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <div class="p-4 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                   <span class="badge rounded-pill bg-primary p-2">Portfólio 2021 <i class="fas fa-analytics width: 15px;"></i></span>
                   <!-- titulo -->
                   <p class="h1 text-left mt-3">
@@ -355,29 +352,27 @@
           <!-- mockup - imagem -->
           <div class="bg-primary col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
             <div class="me-md-3 p-5 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
-              <div class="my-3 py-3">
+              <div class="my-3  py-3">
                 <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
                 <h2 class="display-6">Designer de Interfaçes Digitais</h2>
                 <p class="lead">Veja mais Designs desenvolvidos por mim.</p>
               </div>
-              <div class="bg-light shadow-sm mx-auto" class="p-3" style="width: 80%; height: 600px; border-radius: 21px 21px 21px 21px;;">
-               <img src="assets/img/banner_full_mobi.png" alt="img.png" class="text-center" style="width: 75%; height: 580px; border-radius: 21px 21px 21px 21px;;">
+              <div class="bg-light shadow-sm mx-auto" class="p-3" style="width: 65%; height: 500px; border-radius: 21px 21px 21px 21px;;">
+               <img src="assets/img/banner_full_mobi.png" alt="img.png" class="text-center" style="width: 75%; height: 480px; border-radius: 21px 21px 21px 21px;;">
               </div>
               <div class="row p-3">
                 <div class="row">
                   <div class="col">
-                     <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
+                     <span class="badge p-2 rounded-pill bg-secundary">Portfólio 2021</span>
                       <!-- titulo -->
                       <p class="h5 mt-3">
-                       Conheça um pouco de <br> minhas experiências Profissionais.
+                        Projeto desenvolvido para empresa ...
                       </p>
                   </div>
                   <div class="col">
                     <!-- sub titulo -->
-                      <p class="h6 p-3 mt-3">
-                        Clara em qualquer aspercto e 
-                      <br>
-                        objetiva em minhas funçoêns.
+                      <p class="border-start p-3 mt-3">
+                        Projeto de Design Digital
                       </p>
                   </div>
                   
@@ -390,34 +385,32 @@
       </div>
 
       <!-- 3 Designs desenvolvidos -->
-      <div class="container-fluid">
+      <div class="container-fluid" id="designs_desenvolvidos">
         <div class="row text-white">
-          <div class="bg-primary col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-            <div class="me-md-3 p-5 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden d-none d-md-block">
+          <div class="bg-primary col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-none d-xs-block d-sm-block">
+            <div class="me-md-3 p-5 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
               <div class="my-3 py-3">
-                <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
+                <span class="badge p-2 rounded-pill bg-secundary">Portfólio 2021</span>
                 <h2 class="display-6">Designer de Interfaçes Digitais</h2>
                 <p class="lead">Veja mais Designs desenvolvidos por mim.</p>
               </div>
-              <div class="bg-light shadow-sm mx-auto" class="p-3" style="width: 80%; height: 600px; border-radius: 21px 21px 21px 21px;;">
-               <img src="assets/img/banner_full_mobi.png" alt="img.png" class="text-center" style="width: 90%; height: 580px; border-radius: 21px 21px 21px 21px;;">
+              <div class="bg-light shadow-sm mx-auto" class="p-3" style="width: 80%; height: 500px; border-radius: 21px 21px 21px 21px;;">
+               <img src="assets/img/banner_full_mobi.png" alt="img.png" class="text-center" style="width: 90%; height: 480px; border-radius: 21px 21px 21px 21px;;">
               </div>
             </div>
             <div class="row p-3">
               <div class="row">
                 <div class="col">
-                   <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
+                   <span class="badge p-2 rounded-pill bg-secundary">Portfólio 2021</span>
                     <!-- titulo -->
                     <p class="h5 mt-3">
-                     Conheça um pouco de <br> minhas experiências Profissionais.
+                      Projeto desenvolvido para empresa ...
                     </p>
                 </div>
                 <div class="col">
                   <!-- sub titulo -->
-                    <p class="h6 p-3 mt-3">
-                      Clara em qualquer aspercto e 
-                    <br>
-                      objetiva em minhas funçoêns.
+                    <p class="border-start p-3 mt-3">
+                      Projeto de Design Digital
                     </p>
                 </div>
                 
@@ -425,32 +418,30 @@
             </div>
           </div>
 
-            <div class="bg-primary col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-              <div class="me-md-3 p-5 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden d-none d-md-block">
+            <div class="bg-primary col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-none d-none d-xs-block d-sm-block">
+              <div class="me-md-3 p-5 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
                 <div class="my-3 py-3">
                   <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
                   <h2 class="display-6">Designer de Interfaçes Digitais</h2>
                   <p class="lead">Veja mais Designs desenvolvidos por mim.</p>
                 </div>
-                <div class="bg-light shadow-sm mx-auto" class="p-3" style="width: 80%; height: 600px; border-radius: 21px 21px 21px 21px;;">
-                 <img src="assets/img/banner_full_mobi.png" alt="img.png" class="text-center" style="width: 90%; height: 580px; border-radius: 21px 21px 21px 21px;;">
+                <div class="bg-light shadow-sm mx-auto" class="p-3" style="width: 80%; height: 500px; border-radius: 21px 21px 21px 21px;;">
+                 <img src="assets/img/banner_full_mobi.png" alt="img.png" class="text-center" style="width: 90%; height: 480px; border-radius: 21px 21px 21px 21px;;">
                 </div>
               </div>
               <div class="row p-3">
                 <div class="row">
                   <div class="col">
-                     <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
+                     <span class="badge p-2 rounded-pill bg-secundary">Portfólio 2021</span>
                       <!-- titulo -->
                       <p class="h5 mt-3">
-                       Conheça um pouco de <br> minhas experiências Profissionais.
+                        Projeto desenvolvido para empresa ...
                       </p>
                   </div>
                   <div class="col">
                     <!-- sub titulo -->
-                      <p class="h6 p-3 mt-3">
-                        Clara em qualquer aspercto e 
-                      <br>
-                        objetiva em minhas funçoêns.
+                      <p class="border-start p-3 mt-3">
+                        Projeto de Design Digital
                       </p>
                   </div>
                   
@@ -458,32 +449,30 @@
               </div>
             </div>
 
-            <div class="bg-primary col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-              <div class="me-md-3 p-5 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden d-none d-md-block">
+            <div class="bg-primary col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-none d-md-block">
+              <div class="me-md-3 p-5 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
                 <div class="my-3 py-3">
                   <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
                   <h2 class="display-6">Designer de Interfaçes Digitais</h2>
                   <p class="lead">Veja mais Designs desenvolvidos por mim.</p>
                 </div>
-                <div class="bg-light shadow-sm mx-auto" class="p-3" style="width: 80%; height: 600px; border-radius: 21px 21px 21px 21px;;">
-                 <img src="assets/img/banner_full_mobi.png" alt="img.png" class="text-center" style="width: 90%; height: 580px; border-radius: 21px 21px 21px 21px;;">
+                <div class="bg-light shadow-sm mx-auto" class="p-3" style="width: 80%; height: 500px; border-radius: 21px 21px 21px 21px;;">
+                 <img src="assets/img/banner_full_mobi.png" alt="img.png" class="text-center" style="width: 90%; height: 480px; border-radius: 21px 21px 21px 21px;;">
                 </div>
               </div>
               <div class="row p-3">
                 <div class="row">
                   <div class="col">
-                     <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
+                     <span class="badge p-2 rounded-pill bg-secundary">Portfólio 2021</span>
                       <!-- titulo -->
                       <p class="h5 mt-3">
-                       Conheça um pouco de <br> minhas experiências Profissionais.
+                        Projeto desenvolvido para empresa ...
                       </p>
                   </div>
                   <div class="col">
                     <!-- sub titulo -->
-                      <p class="h6 p-3 mt-3">
-                        Clara em qualquer aspercto e 
-                      <br>
-                        objetiva em minhas funçoêns.
+                      <p class="border-start p-3 mt-3">
+                        Projeto de Design Digital
                       </p>
                   </div>
                   
@@ -495,7 +484,7 @@
       </div>
 
        <!-- Sobre Mim / experiência Profissional -->
-      <div class="container-fluid p-5 pt-5 pb-5">
+      <div class="container-fluid p-5 pt-5 pb-5" id="Sobre_experiências">
                <!-- sobre mim / mockup -->
             <div class="row align-items-center p-5">
               <!-- 1º col -->
@@ -534,7 +523,7 @@
           <!-- 2º col -->
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 profissional">
             <!-- titulo -->
-            <div class="row align-items-center p-5">
+            <div class="row align-items-center">
               <div class="col">
                  <span class="badge rounded-pill p-2 bg-primary">Portfólio 2021</span>
                     <!-- titulo -->
@@ -545,10 +534,9 @@
               <div class="col">
                 <!-- sub titulo -->
                 <p class="h6 border-start p-3 mt-3">
-                  Clara em qualquer aspercto e 
-                  <br>
-                  objetiva em minhas funçoêns.
-                 </p>
+                  Ou faça donwloand <br> do meu CV
+                </p>
+
               </div>
             </div>
             <!-- sub titulo -->
@@ -584,10 +572,10 @@
       </div>
 
       <!-- footer -->
-      <footer>
-        <div class="container-fluid p-2 bg-primary">
-          <div class="row align-items-center p-5">
-                <div class="mt-5 ´p-3 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+      <footer id="rodape">
+        <div class="container-fluid p-5 bg-primary">
+          <div class="row align-items-center">
+                <div class="mt-2 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
                   <span class="badge rounded-pill bg-secundary p-2">Portfólio 2021</span>
                 <p class="h3 text-white mt-3">
                   Veja um pouco de
@@ -597,10 +585,10 @@
                 
                 </div>
 
-                <div class="mt-5 p-3 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                  <form class="d-flex p-3">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn bg-secundary" type="submit">Search</button>
+                <div class="mt-2 p-2 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                  <form class="d-flex">
+                    <input class="form-control me-2 border-radius" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn bg-secundary rounded-pill" type="submit">Search</button>
                   </form>
                 </div>
 
@@ -694,18 +682,16 @@
   
   </body>
 
-  <!-- scripts -->
+  <!-- scripts - remoto -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <!-- scripts - local -->
   <script src="assets/js/all.js"></script>
-  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-z  <script src="dist/js/bootstrap.bundle.min.js"></script>
-  <script src="../assets/dist/js/bootstrap.bundle.min.js.map"></script>
+ <script src="dist/js/bootstrap.bundle.min.js"></script>
   <script src="dist/js/bootstrap.min.js.map"></script>
-  <script src="../assets/dist/js/bootstrap.min.js"></script>
   <script src="dist/js/bootstrap.min.js"></script>
 
   <!-- Development version -->

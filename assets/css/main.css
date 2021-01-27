@@ -55,7 +55,16 @@ li.aling-item-center {
 button.btn.bg-secundary {
     background-color: #d6b1a8;
 }
-
+.navbar {
+    font-size: x-large;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
 
 @media (max-width: 320px){
     .container-fluid.bg-image.d-block.d-sm-none{
@@ -63,5 +72,8 @@ button.btn.bg-secundary {
     height: 100vh;
     background-image: url(assets/img/banner_full_mobi.png);
     }
+    /* mobile */
+   
  }
-
+ 
+ 
