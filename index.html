@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Portfólio -  Design de Aplicaçoens Digitais Responsivas</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    
     <link rel="stylesheet" href="dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="dist/css/bootstrap.min.css.map">
     <link rel="stylesheet" href="dist/css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="dist/css/bootstrap-reboot.min.css.map">
+    <link rel="stylesheet" href="assets/css/main.css">
     <meta name="theme-color" content="dark">
   </head>
 
@@ -21,18 +22,18 @@
       <!-- header -->
       <header> 
         <!-- nav tablet - Desktop -->
-      <nav class="navbar sticky-top navbar-expand-lg p-3 navbar-light d-none d-sm-block"> 
+      <nav class="navbar bg-transparent sticky-top navbar-expand-lg p-3 d-none d-sm-block"> 
         <div class="container-fluid"> 
          <a class="navbar-brand" href="#">
-          Thais <br> Mariano
+           <img src="assets/img/logo.png" width="90" alt="logo.png">
          </a>
          <span class="navbar-text d-none d-sm-block border-start p-3">
           Design de Aplicaçoens
           Digitais Responsivas
         </span>
-         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-         </button>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
              <li class="nav-item">
@@ -55,7 +56,7 @@
                </ul>
              </li>
              <li class="nav-item">
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Fale Comigo</button>
+              <button type="button" class="btn btn-secondary rounded-pill" data-toggle="modal" data-target="#exampleModal">Fale Comigo</button>
                 
              </li>
              <li class="nav-items social pt-2">
@@ -73,6 +74,7 @@
          </div>
        </div>
       </nav>  
+     
       <!-- menu mobile -->
         <div class="containei fixed-bottom bg-light d-block d-sm-none">
           <div class="row">
@@ -81,12 +83,12 @@
                 <div class="container-fluid"> 
                 <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icons border-0 link">
-                    <a class="nav-link active text-dark" aria-current="page" href="#"><i class="fas fa-home"></i></a>
+                    <a class="nav-link active text-dark" target="_blank" aria-current="page" href="#"><i class="fas fa-home"></i></a>
                   </span>
                 </button>
-                    <a class="nav-link active text-dark" aria-current="page" href="#"><i class="far fa-grin-beam"></i></i></a>
-                    <a class="nav-link text-dark" aria-current="page" href="#"><i class="fas fa-swatchbook"></i></a>
-                    <a class="nav-link text-dark" aria-current="page" href="#"><i class="fab fa-whatsapp"></i></i></a>
+                    <a class="nav-link active text-dark" target="_blank" aria-current="page" href="#"><i class="far fa-grin-beam"></i></i></a>
+                    <a class="nav-link text-dark" target="_blank" aria-current="page" href="#"><i class="fas fa-swatchbook"></i></a>
+                    <a class="nav-link text-dark" target="_blank" aria-current="page" href="https://wa.me/+5511910451115?text="><i class="fab fa-whatsapp"></i></i></a>
                 </div>
               </nav>
             </div>
@@ -97,12 +99,12 @@
      <!-- main -->
      <main>
          <!-- banner-top - mobile -->
-       <div class="container-fluid bg-image d-block d-sm-none" style="width: 100%; background-image: url(assets/img/banner_full_mobi.png);">
+       <div class="container-fluid bg-image d-block d-sm-none" style="width: 100%; height: 100%; background-image: url(assets/img/banner_full_mobi.png);">
         <!-- <img src="assets/img/banner_top.jpg" width="100%" alt="banner_top"> -->
         <div class="container">
           <div class="row">
             <div class="text-white p-5 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-              <span class="badge rounded-pill text-white bg-primary">Portfólio 2021</span>
+              <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
               <p class="h1 text-left">
                Designer e Desenvolvedora de Aplicaçõens Digitáis Responsivas
               </p>
@@ -131,12 +133,12 @@
       </div>
 
       <!-- banner-top - desktop -->
-      <div class="container-fluid bg-image d-none d-sm-block" style="width: 100%; background-image: url(assets/img/banner_top.jpg);">
+      <div class="container-fluid bg-image d-none d-sm-block" style="width: 100%; height: 100%;">
         <!-- <img src="assets/img/banner_top.jpg" width="100%" alt="banner_top"> -->
         <div class="container">
           <div class="row">
             <div class="text-white p-5 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-              <span class="badge rounded-pill text-dark bg-light mt-5"> Portfólio 2021</span>
+              <span class="badge rounded-pill bg-secundary p-2 mt-5"> Portfólio 2021</span>
               <p class="h1 mt-2 text-left">
                Designer e Desenvolvedora de Aplicaçõens Digitáis Responsivas
               </p>
@@ -167,65 +169,62 @@
        <!-- text / cards -->
         <div class="container-fluid CV">
           <!-- row_top -->
-          <div class="container">
+          <div class="container p-5 pt-5 pb-5">
             <!-- text-veja_mais -->
-            <div class="row align-items-center mt-5">
+            <div class="row align-items-center">
               <!-- text -->
-              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <span class="badge rounded-pill text-white bg-primary mt-5">Portfólio 2021</span>
-                <p class="h1 mt-4">
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 p-3">
+                <span class="badge rounded-pill bg-primary p-2">Portfólio 2021</span>
+                <p class="h1 text-white mt-4">
                   Veja um pouco de
                   <br>
                   minhas experiencias
                 </p>
-                <p class="h4 mt-4">
+                <p class="h4 text-white mt-4">
                   Saiba como posso
                   <br>
                   Contribuir com seu projeto
                 </p>
-                <p class="h6 mt-4">
-                  It is a long established fact that a reader will be distracted by the readable content of a page
-                  when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                  distribution of letters, as opposed to using 'Content here, content here', 
-                  making it look like readable English.
+                <p class="h6 text-white mt-4">
+                  Atuo na criação, Desenvolvimento, <br> Alteração e Finalização de peças de Digitáis.
                 </p>
                 <!-- icons -->
-                    <a href="https://www.linkedin.com/in/thais-mariano-3657881b6/" target="_blank"  class="text-decoration-none mt-3">
-                      <i class="text-dark fab fa-linkedin-in"></i>
+                    <a href="https://www.linkedin.com/in/thais-mariano-3657881b6/" target="_blank" class="text-decoration-none mt-3">
+                      <i class="text-white fab fa-linkedin-in"></i>
                     </a>
 
                     <a href="https://github.com/ThaisMariano30" target="_blank"  class="text-decoration-none mt-3">
-                      <i class="text-dark fab fa-github"></i>
+                      <i class="text-white fab fa-github"></i>
                     </a>
                     <a href="https://wa.me/+5511910451115?text=" target="_blank"  class="text-decoration-none mt-3">
-                      <i class="text-dark fab fa-whatsapp"></i>
+                      <i class="text-white fab fa-whatsapp"></i>
                     </a>
  
              </div>
              <!-- Cards-->
-             <div class="p-3 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+             <div class="p-3 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 p-3">
                <!-- 1ºrow/card -->
-               <div class="row mt-5">
-                 <div class="p-2 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 text-white">
-                   <div class="card p-2 bg-primary">
-                     <h5 class="card-title text-center"><i class="text-white fab fa-linkedin-in"></i></h5>
+               <div class="row">
+                 <div class="p-2 col-xs-12 col-sm-12 col-md-4 col-lg-6 col-xl-6 col-xxl-6 text-white">
+                   <div class="card p-3 bg-primary">
+                     <h5 class="card-title mt-2 text-center"><i class="text-white fab fa-linkedin-in"></i></h5>
                      <p class="card-text h4">Dev<br>Front</p>
                      <a href="#" class="link text-white">Veja Mais</a>
                    </div>
                  </div>
  
-                 <div class="p-2 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                  <div class="card p-2">
-                    <h5 class="card-title text-center"><i class="text-dark fab fa-linkedin-in"></i></h5>
-                    <p class="card-text">Design <br> Gráfico</p>
+                 <div class="p-2 col-xs-12 col-sm-12 col-md-4 col-lg-6 col-xl-6 col-xxl-6">
+                  <div class="card align-items-right p-3">
+                    <h5 class="card-title mt-2 text-center"><i class="text-dark fab fa-linkedin-in"></i></h5>
+                    <p class="card-text h5">Design <br> Gráfico</p>
                     <a href="#" class="link">Veja Mais</a>
                   </div>
                  </div>
                  
-                 <div class="p-2 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                  <div class="card p-2">
-                    <h5 class="card-title text-center"><i class="text-dark fab fa-linkedin-in"></i></h5>
-                    <p class="card-text">Ilustrações <br> Digitáis</p>
+                 <div class="p-2 col-xs-12 col-sm-12 col-md-4 col-lg-6 col-xl-6 col-xxl-6">
+                  <div class="card align-items-right p-3">
+                    <h5 class="card-title mt-2 text-center"><i class="text-dark fab fa-linkedin-in"></i></h5>
+                    <p class="card-text h5">Ilustrações <br> Digitáis</p>
                     <a href="#" class="link">Veja Mais</a>
                   </div>
                  </div>
@@ -241,68 +240,12 @@
 
         </div>
 
-       <!-- Sobre Mim -->
-          <div class="container">
-            <!-- sobre mim / mockup -->
-            <div class="row align-items-center p-5 mt-5">
-              <!-- 1º col -->
-              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 p-5">
- 
-              <span class="badge rounded-pill bg-primary">Portfólio 2021</span>
-
-              <p class="h1 mt-4">
-                Sobre Mim.
-              </p>
-
-              <p class="h4 mt-4">
-                Venha e me conheça um pouco mais!
-              </p>
-
-              <p class="h6 mt-4">
-                Clara em qualquer aspecto Objetiva em minhas funções,
-                Busco o famoso frio na barriga Exercendo minha profissão.
-                Sentir essa sensação de Euforia quando estiver criando E desenvolvendo.
-                Com características Descritas como;
-                comunicativa, bem-humorada, criativa e descontraída.
-              </p>
-
-              <p class="h6 mt-4">
-                Clara em qualquer aspecto Objetiva em minhas funções,
-                Busco o famoso frio na barriga Exercendo minha profissão. 
-                Sentir essa sensação de Euforia quando estiver criando E desenvolvendo.
-              </p>
-              <!-- icons -->
-              <a href="https://www.linkedin.com/in/thais-mariano-3657881b6/" target="_blank"  class="text-decoration-none mt-3">
-                <i class="text-dark fab fa-linkedin-in"></i>
-              </a>
-
-              <a href="https://github.com/ThaisMariano30" target="_blank"  class="text-decoration-none mt-3">
-                <i class="text-dark fab fa-github"></i>
-              </a>
-
-              <a href="https://wa.me/+5511910451115?text=" target="_blank"  class="text-decoration-none mt-3">
-                <i class="text-dark fab fa-whatsapp"></i>
-              </a>
-
-          </div>
-          <!-- 2º col -->
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mockup_mobile">
-            <div class="row mt-2">
-              <img src="assets/img/banner_top.jpg" alt="">
-            </div>
-          </div>
-
-        </div>
-        </div>
-       
-
-        
        <!-- banner-ilustrations -->
         <div class="container-fluid banner-top">
           <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light">
             <div class="col-xs-12 p-5 col-sm-12 col-md-8 col-lg-8 col-xl-8">
               <div class="container">
-               <span class="badge rounded-pill text-left bg-primary">Portfólio 2021</span>
+               <span class="badge rounded-pill text-left p-2 bg-secundary">Portfólio 2021</span>
               <h1 class="display-1 fw-normal">Ilustrações Digitais</h1>
                 <p class="lead fw-normal">Veja o que faço em meu <br> tempo livre.</p>
                 <a class="btn btn-outline-secondary" href="#">Galeria Behance</a> 
@@ -314,88 +257,82 @@
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
           </div>
         </div> 
-
-       
-
-      <!-- banner - jobs -->
-    
-     
+        
         <!-- Skills -->
       <div class="container-fluid p-0">
         <div class="row align-items-center">
           <!-- titulo - sub - Redes Sociais  -->
-          <div class=" col ">
-              <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xll-6">
+              <div class="row p-5">
                 <div class="p-5 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                  <span class="badge rounded-pill bg-primary">Portfólio 2021 <i class="fas fa-analytics width: 15px;"></i></span>
+                  <span class="badge rounded-pill bg-primary p-2">Portfólio 2021 <i class="fas fa-analytics width: 15px;"></i></span>
                   <!-- titulo -->
-                  <p class="h1 text-left mt-2">
+                  <p class="h1 text-left mt-3">
                    Veja minhas habilidades e
                     Softwares e Skills.
                   </p>
                   <!-- sub titulo -->
-                  <p class="h3 mt-3">
-                    Clara em qualquer aspercto e 
-                    <br>
-                    objetiva em minhas funçoêns.
+                  <p class="h5 mt-3">
+                    Meu trabalho, é trazer o melhor de mim, para o Desenvolvimento de peças.
+                    Colocar em pática minha criatividade, em grandes projetos, por em prática há usabilidade
+                    em sistemas mais complexos.
                   </p>
                   <!-- skills -->
                  <div class="row">
-                   <div class="col">
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xll-6 p-3">
                     <p class="h5 mt-3">
                     PhotoShop
                   </p>
                   <div class="progress mb-3">
-                    <div class="progress-bar bg-info text-dark w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    <div class="progress-bar bg-primary bg-info text-dark w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                   </div> 
                    </div>
-                   <div class="col">
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xll-6 p-3">
                      <p class="h5 mt-3">
                    Figma
                   </p>
                   <div class="progress mb-3">
-                    <div class="progress-bar bg-info text-dark w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    <div class="progress-bar bg-primary bg-info text-dark w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                   </div>
                    </div>
-
-
                  </div>
 
                  <div class="row">
-                  <div class="col">
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xll-6">
                    <p class="h5 mt-3">
                     Html 5
                    </p>
                    <div class="progress mb-3">
-                    <div class="progress-bar bg-info text-dark w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    <div class="progress-bar bg-primary bg-info text-dark w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                   </div>
                   </div>
 
-                  <div class="col">
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xll-6">
                     <p class="h5 mt-3">
                     Css 3
                    </p>
                    <div class="progress mb-3">
-                    <div class="progress-bar bg-info text-dark w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    <div class="progress-bar bg-primary bg-info text-dark w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                   </div>
                   </div>
 
                  </div>
+
                   <div class="row">
-                    <div class="col">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xll-6">
                       <p class="h5 mt-3">
                     Ilutração Digital
                   </p>
                    <div class="progress mb-3">
-                    <div class="progress-bar bg-info text-dark w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    <div class="progress-bar bg-primary bg-info text-dark w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                   </div>
                     </div>
-                    <div class="col">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xll-6">
                       <p class="h5 mt-2">
                     Adobe XD
                   </p>
                    <div class="progress mb-3">
-                    <div class="progress-bar bg-info text-dark w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    <div class="progress-bar bg-primary bg-info text-dark w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                   </div>
                     </div>
                   </div>
@@ -416,14 +353,36 @@
             </div>
 
           <!-- mockup - imagem -->
-          <div class="bg-dark col">
-            <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
+          <div class="bg-primary col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="me-md-3 p-5 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
               <div class="my-3 py-3">
-                <span class="badge rounded-pill bg-primary">Portfólio 2021</span>
-                <h2 class="display-5">Designer de Interfaçes Digitais</h2>
+                <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
+                <h2 class="display-6">Designer de Interfaçes Digitais</h2>
                 <p class="lead">Veja mais Designs desenvolvidos por mim.</p>
               </div>
-              <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;;"></div>
+              <div class="bg-light shadow-sm mx-auto" class="p-3" style="width: 80%; height: 600px; border-radius: 21px 21px 21px 21px;;">
+               <img src="assets/img/banner_full_mobi.png" alt="img.png" class="text-center" style="width: 75%; height: 580px; border-radius: 21px 21px 21px 21px;;">
+              </div>
+              <div class="row p-3">
+                <div class="row">
+                  <div class="col">
+                     <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
+                      <!-- titulo -->
+                      <p class="h5 mt-3">
+                       Conheça um pouco de <br> minhas experiências Profissionais.
+                      </p>
+                  </div>
+                  <div class="col">
+                    <!-- sub titulo -->
+                      <p class="h6 p-3 mt-3">
+                        Clara em qualquer aspercto e 
+                      <br>
+                        objetiva em minhas funçoêns.
+                      </p>
+                  </div>
+                  
+                </div>
+              </div>
             </div>
           </div>
 
@@ -432,154 +391,253 @@
 
       <!-- 3 Designs desenvolvidos -->
       <div class="container-fluid">
-        <div class="row">
-          <div class="col">
-            <div class="bg-dark col">
-              <div class="me-md-3 p-5 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
-                <div class="my-3 py-3">
-                  <span class="badge rounded-pill bg-primary">Portfólio 2021</span>
-                  <h2 class="display-5">Designer de Interfaçes Digitais</h2>
-                  <p class="lead">Veja mais Designs desenvolvidos por mim.</p>
+        <div class="row text-white">
+          <div class="bg-primary col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+            <div class="me-md-3 p-5 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden d-none d-md-block">
+              <div class="my-3 py-3">
+                <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
+                <h2 class="display-6">Designer de Interfaçes Digitais</h2>
+                <p class="lead">Veja mais Designs desenvolvidos por mim.</p>
+              </div>
+              <div class="bg-light shadow-sm mx-auto" class="p-3" style="width: 80%; height: 600px; border-radius: 21px 21px 21px 21px;;">
+               <img src="assets/img/banner_full_mobi.png" alt="img.png" class="text-center" style="width: 90%; height: 580px; border-radius: 21px 21px 21px 21px;;">
+              </div>
+            </div>
+            <div class="row p-3">
+              <div class="row">
+                <div class="col">
+                   <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
+                    <!-- titulo -->
+                    <p class="h5 mt-3">
+                     Conheça um pouco de <br> minhas experiências Profissionais.
+                    </p>
                 </div>
-                <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;;"></div>
+                <div class="col">
+                  <!-- sub titulo -->
+                    <p class="h6 p-3 mt-3">
+                      Clara em qualquer aspercto e 
+                    <br>
+                      objetiva em minhas funçoêns.
+                    </p>
+                </div>
+                
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="bg-dark col">
-              <div class="me-md-3 p-5 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
+
+            <div class="bg-primary col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+              <div class="me-md-3 p-5 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden d-none d-md-block">
                 <div class="my-3 py-3">
-                  <span class="badge rounded-pill bg-primary">Portfólio 2021</span>
-                  <h2 class="display-5">Designer de Interfaçes Digitais</h2>
+                  <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
+                  <h2 class="display-6">Designer de Interfaçes Digitais</h2>
                   <p class="lead">Veja mais Designs desenvolvidos por mim.</p>
                 </div>
-                <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;;"></div>
+                <div class="bg-light shadow-sm mx-auto" class="p-3" style="width: 80%; height: 600px; border-radius: 21px 21px 21px 21px;;">
+                 <img src="assets/img/banner_full_mobi.png" alt="img.png" class="text-center" style="width: 90%; height: 580px; border-radius: 21px 21px 21px 21px;;">
+                </div>
+              </div>
+              <div class="row p-3">
+                <div class="row">
+                  <div class="col">
+                     <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
+                      <!-- titulo -->
+                      <p class="h5 mt-3">
+                       Conheça um pouco de <br> minhas experiências Profissionais.
+                      </p>
+                  </div>
+                  <div class="col">
+                    <!-- sub titulo -->
+                      <p class="h6 p-3 mt-3">
+                        Clara em qualquer aspercto e 
+                      <br>
+                        objetiva em minhas funçoêns.
+                      </p>
+                  </div>
+                  
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="bg-dark col">
-              <div class="me-md-3 p-5 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
+
+            <div class="bg-primary col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+              <div class="me-md-3 p-5 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden d-none d-md-block">
                 <div class="my-3 py-3">
-                  <span class="badge rounded-pill bg-primary">Portfólio 2021</span>
-                  <h2 class="display-5">Designer de Interfaçes Digitais</h2>
+                  <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
+                  <h2 class="display-6">Designer de Interfaçes Digitais</h2>
                   <p class="lead">Veja mais Designs desenvolvidos por mim.</p>
                 </div>
-                <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;;"></div>
+                <div class="bg-light shadow-sm mx-auto" class="p-3" style="width: 80%; height: 600px; border-radius: 21px 21px 21px 21px;;">
+                 <img src="assets/img/banner_full_mobi.png" alt="img.png" class="text-center" style="width: 90%; height: 580px; border-radius: 21px 21px 21px 21px;;">
+                </div>
+              </div>
+              <div class="row p-3">
+                <div class="row">
+                  <div class="col">
+                     <span class="badge rounded-pill bg-secundary">Portfólio 2021</span>
+                      <!-- titulo -->
+                      <p class="h5 mt-3">
+                       Conheça um pouco de <br> minhas experiências Profissionais.
+                      </p>
+                  </div>
+                  <div class="col">
+                    <!-- sub titulo -->
+                      <p class="h6 p-3 mt-3">
+                        Clara em qualquer aspercto e 
+                      <br>
+                        objetiva em minhas funçoêns.
+                      </p>
+                  </div>
+                  
+                </div>
               </div>
             </div>
-          </div>
+
         </div>
       </div>
 
-      <!-- carreira profissional -->
-        <div class="container">
-          <!-- 1º row -->
-          <div class="row mt-3">
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                <div class="row align-items-center">
-                  <div class="col">
-                    <span class="badge rounded-pill bg-primary">Portfólio 2021</span>
+       <!-- Sobre Mim / experiência Profissional -->
+      <div class="container-fluid p-5 pt-5 pb-5">
+               <!-- sobre mim / mockup -->
+            <div class="row align-items-center p-5">
+              <!-- 1º col -->
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 p-5">
+              <span class="badge rounded-pill bg-secundary p-2">Portfólio 2021</span>
+              <p class="h1 mt-4">
+                Sobre Mim.
+              </p>
+              <p class="h4 mt-4">
+                Venha e me conheça um pouco mais!
+              </p>
+              <p class="h6 mt-4">
+                Clara em qualquer aspecto Objetiva em minhas funções,
+                Busco o famoso frio na barriga Exercendo minha profissão.
+                
+              </p>
+              <p class="h6 mt-4">
+                Sentir essa sensação de Euforia quando estiver criando E desenvolvendo.
+                Com características Descritas como;
+                comunicativa, bem-humorada, criativa e descontraída.
+              </p>
+              <!-- icons -->
+              <a href="https://www.linkedin.com/in/thais-mariano-3657881b6/" target="_blank"  class="text-decoration-none mt-3">
+                <i class="text-dark fab fa-linkedin-in"></i>
+              </a>
+
+              <a href="https://github.com/ThaisMariano30" target="_blank"  class="text-decoration-none mt-3">
+                <i class="text-dark fab fa-github"></i>
+              </a>
+
+              <a href="https://wa.me/+5511910451115?text=" target="_blank"  class="text-decoration-none mt-3">
+                <i class="text-dark fab fa-whatsapp"></i>
+              </a>
+
+          </div>
+          <!-- 2º col -->
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 profissional">
+            <!-- titulo -->
+            <div class="row align-items-center p-5">
+              <div class="col">
+                 <span class="badge rounded-pill p-2 bg-primary">Portfólio 2021</span>
                     <!-- titulo -->
-                    <p class="h1 mt-3">
-                      
-                      Veja minhas habilidades e
-                      Softwares e Skills.
+                    <p class="h5 mt-3">
+                     Conheça um pouco de <br> minhas experiências Profissionais.
                     </p>
-                  </div>
-                  
-                  <div class="col">
-                    <!-- sub titulo -->
-                    <p class="h3 border-start p-5 mt-3">
-                     Clara em qualquer aspercto e 
-                     <br>
-                     objetiva em minhas funçoêns.
-                    </p>
-                  </div>
-                </div>
-                <!-- icons -->
-                  <a href="https://www.linkedin.com/in/thais-mariano-3657881b6/" target="_blank" class="text-decoration-none">
-                  <svg class="svg-inline--fa fa-linkedin-in fa-w-14 text-white" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg><!-- <i class="text-dark fab fa-linkedin-in"></i> Font Awesome fontawesome.com -->
-                  </a>
-                  <a href="https://github.com/ThaisMariano30" target="_blank" class="text-decoration-none">
-                  <svg class="svg-inline--fa fa-github fa-w-16 text-white" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg><!-- <i class="text-dark fab fa-github"></i> Font Awesome fontawesome.com -->
-                  </a>
-                  <a href="https://wa.me/+5511910451115?text=" target="_blank" class="text-decoration-none">
-                  <svg class="svg-inline--fa fa-whatsapp fa-w-14 text-white" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="whatsapp" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg><!-- <i class="text-dark fab fa-whatsapp"></i> Font Awesome fontawesome.com -->
-                  </a>
-            </div> 
-          </div>
-          <!-- 2º row -->
-          <div class="row p-5">
-            <div class=" col">
-              <span class="badge rounded-pill bg-primary mt-5"> Portfólio 2021</span>
+              </div>
+              <div class="col">
+                <!-- sub titulo -->
+                <p class="h6 border-start p-3 mt-3">
+                  Clara em qualquer aspercto e 
+                  <br>
+                  objetiva em minhas funçoêns.
+                 </p>
+              </div>
+            </div>
+            <!-- sub titulo -->
+            <div class="row align-items-center p-5">
+              <div class="col">
+                <span class="badge rounded-pill p-2 bg-primary"> Portfólio 2021</span>
               <!-- titulo -->
-              <p class="h3 mt-3">
-                Veja minhas habilidades e
-                Softwares e Skills.
+              <p class="h5 mt-3">
+               Quicky Digital
               </p>
               <!-- sub titulo -->
-              <p class="h6 mt-4">
-                Clara em qualquer aspercto e 
-                <br>
-                objetiva em minhas funçoêns.
+              <p class="h6 mt-3">
+               Fiz projetos conjuntos com esta empresa, na áre de Design e Desenvolvedora de interfaces Digitáis.
+               Ganhei mais experiência no design, por ter participado de projetos onde precisei entrar mais há fundo no assunto.   
               </p>
-            </div>
+              </div>
 
-            <div class="col">
-              <!-- badge -->
-              <span class="badge rounded-pill bg-primary mt-5">Portfólio 2021</span>
+              <div class="col">
+                <span class="badge rounded-pill p-1 p-2 bg-primary"> Portfólio 2021</span>
               <!-- titulo -->
-              <p class="h3 mt-3">
-               Veja minhas habilidades e
-                Softwares e Skills.
+              <p class="h5 mt-3">
+                Gráfica Rápida 
               </p>
               <!-- sub titulo -->
-              <p class="h6 mt-4">
-                Clara em qualquer aspercto e 
-                <br>
-                objetiva em minhas funçoêns.
+              <p class="h6 mt-3">
+               Trabalhei no Desenvolvimento <br> de peças publicitárias.
               </p>
+              </div>
             </div>
-
           </div>
-          
-        </div>
+
+            </div>
+      </div>
 
       <!-- footer -->
       <footer>
-        <div class="container-fluid bg-dark">
-          <div class="container">
-            <div class="row text-white">
-              <div class="col">
-                teste
-              </div>
-  
-              <div class="col">
-                teste
-              </div>
-  
-              <div class="col">
-                teste                
-              </div>
-  
-              <div class="col">
-                teste
-              </div>
-  
-            </div>
-            
-            <hr class="text-white">
+        <div class="container-fluid p-2 bg-primary">
+          <div class="row align-items-center p-5">
+                <div class="mt-5 ´p-3 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+                  <span class="badge rounded-pill bg-secundary p-2">Portfólio 2021</span>
+                <p class="h3 text-white mt-3">
+                  Veja um pouco de
+                  <br>
+                  minhas experiencias
+                </p>
+                
+                </div>
 
-            <div class="row">
+                <div class="mt-5 p-3 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                  <form class="d-flex p-3">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn bg-secundary" type="submit">Search</button>
+                  </form>
+                </div>
+
+          </div>
+          <div class="row p-2 align-items-center">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 col-xl-8 col-xxl-8">
+              <li>
+              <a href="index.html">Home</a>
+              <a href="index.html">Sobre Mim</a>
+              <a href="index.html">Skills</a>
+              <a href="index.html">Portfólio</a>
+              <button type="button" class="btn btn-secondary rounded-pill" data-toggle="modal" data-target="#exampleModal">Fale Comigo</button>
+            </li>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                <li class="aling-item-center">
+                  <a href="https://www.linkedin.com/in/thais-mariano-3657881b6/" target="_blank"  class="text-decoration-none">
+                <i class="text-white fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/ThaisMariano30" target="_blank"  class="text-decoration-none">
+                <i class="text-white fab fa-github"></i>
+                </a>
+                <a href="https://wa.me/+5511910451115?text=" target="_blank"  class="text-decoration-none">
+                <i class="text-white fab fa-whatsapp"></i>
+                </a>
+                </li>
+            </div>
+          </div>
+          <hr class="text-white">
+          <div class="row align-items-center">
               <p class="text-white">
                 termos 
               </p>
-            </div>
-
           </div>
-          
+
         </div>
+          
       </footer>
 
     </main>
@@ -644,14 +702,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
   <script src="assets/js/all.js"></script>
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="dist/js/bootstrap.bundle.min.js"></script>
+z  <script src="dist/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/dist/js/bootstrap.bundle.min.js.map"></script>
   <script src="dist/js/bootstrap.min.js.map"></script>
   <script src="../assets/dist/js/bootstrap.min.js"></script>
   <script src="dist/js/bootstrap.min.js"></script>
-  <script src="../assets/dist/js/bootstrap.min.js"></script>
-  <script src="dist/js/bootstrap.min.js.map"></script>
-  <script src="../assets/dist/js/bootstrap.min.js.map"></script>
 
   <!-- Development version -->
   <!-- Production version -->
