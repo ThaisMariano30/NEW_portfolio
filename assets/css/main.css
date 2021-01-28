@@ -50,7 +50,7 @@ a {
     color: white;
 }
 li.aling-item-center {
-    padding-left: 300px;
+    padding-left: 300px !important;
 }
 button.btn.bg-secundary {
     background-color: #d6b1a8;
